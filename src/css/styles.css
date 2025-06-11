@@ -23,3 +23,59 @@ img{
   display: block;
   height: auto;
 }
+
+.container{
+  max-width: 1440px;
+  padding-left: 112px;
+  padding-right: 112px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin: 0 auto;
+}
+
+
+.feedback-section{
+  background-color: #060307;
+  
+}
+
+
+.swiper-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.swiper-list > li:last-child{
+  margin-top: 32px;
+}
+
+.swiper-list-text{
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  color: #fff;
+  max-width: 866px;
+}
+
+.swiper-list-name{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #fff;
+}
+.wrapper{
+  margin: 0 auto;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #fff;         /* Цвет иконки */
+  background-color: rgba(0, 0, 0, 0.5);  /* Цвет фона */
+  padding: 10px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
